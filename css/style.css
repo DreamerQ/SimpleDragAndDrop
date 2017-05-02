@@ -1,0 +1,40 @@
+.pig {
+    background: url(http://vignette2.wikia.nocookie.net/vinni/images/6/69/A_7c639b12.jpg/revision/latest?cb=20140320080534&path-prefix=ru) no-repeat;
+
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    position: absolute;
+}
+.vinni {
+    background: url(http://anekdotgu.ru/wp-content/uploads/2015/05/zkneWiELxrA.jpg) no-repeat;
+
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    position: absolute;
+    left: 300px;
+}
+.donkey {
+    background: url(http://lh5.ggpht.com/-SYltZMEcYf8/T15D49Jbe_I/AAAAAAAAzC0/3-e7R5xAQ8I/s810/az10.jpg) no-repeat;
+
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    position: absolute;
+    left: 600px;
+}
+.draggable {
+    cursor: pointer;
+}
+.wrap {
+    position: relative;
+    left: 400px;
+    top: 200px;
+    width: 1200px;
+    height: 800px;
+    border: 1px solid red;
+}
+.moving {
+    border: 1px dashed grey;
+}
